@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<elements>
+	<element name="userName" locatorType="id" locatorValue="email"></element>
+	<element name="password" locatorType="name" locatorValue="password"></element>
+	<element name="signIn" locatorType="xpath" locatorValue="//button[text()='sign in']"></element>
+</elements>
