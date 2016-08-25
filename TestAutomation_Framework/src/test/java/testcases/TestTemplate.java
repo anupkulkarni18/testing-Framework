@@ -30,6 +30,4 @@ public class TestTemplate {
 	public void terminate(){
 		BrowserDriver.QuitBrowser();
 	}
-
-
 }

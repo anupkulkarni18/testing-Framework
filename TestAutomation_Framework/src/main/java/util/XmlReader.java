@@ -25,7 +25,7 @@ public class XmlReader {
 		// read xml
 
 		try {
-			File fXmlFile = new File("C:/Users/Chitranjan/Media_Platform/TestAutomation_Framework/objectRepo/"+repoFileName+".xml");
+			File fXmlFile = new File(System.getProperty("user.dir")+"/objectRepo/"+repoFileName+".xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(fXmlFile);
