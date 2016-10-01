@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48978" started-at="2016-09-18T11:12:35Z" finished-at="2016-09-18T11:13:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48978" started-at="2016-09-18T11:12:35Z" finished-at="2016-09-18T11:13:24Z">
+      <class name="loginTest.TC_Login">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:loginTest.TC_Login@a9e816]" name="start" is-config="true" duration-ms="25092" started-at="2016-09-18T16:42:35Z" finished-at="2016-09-18T16:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:loginTest.TC_Login@a9e816]" name="login" duration-ms="9737" started-at="2016-09-18T16:43:00Z" finished-at="2016-09-18T16:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:loginTest.TC_Login@a9e816]" name="verifyLoginTest" duration-ms="11527" started-at="2016-09-18T16:43:11Z" data-provider="empLogin" finished-at="2016-09-18T16:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kanika+miovertistest@ooyala.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:loginTest.TC_Login@a9e816]" name="close" is-config="true" duration-ms="2231" started-at="2016-09-18T16:43:22Z" finished-at="2016-09-18T16:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- loginTest.TC_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

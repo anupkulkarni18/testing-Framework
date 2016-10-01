@@ -1,0 +1,4 @@
+<elements>
+	<element name="emailId" locatorType="id" locatorValue="email"></element>
+	<element name="password" locatorType="name" locatorValue="password"></element>
+</elements>
