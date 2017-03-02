@@ -65,8 +65,20 @@ public static WebElement getWebElement(String identifier) {
 		return element;
 
 	}
-
-	
+// download "JSErrorCollector-0.5.jar"
+	public void printPageErrors() throws Exception {
+  //Capture all errors and store them In array.
+  List<JavaScriptError> Errors = JavaScriptError.readErrors(driver);
+  System.out.println("Total No Of JavaScript Errors : " + Errors.size());
+  //Print Javascript Errors one by one from array.
+  for (int i = 0; i < Errors.size(); i++) {
+   System.out.println("Error Message : "
+     + Errors.get(i).getErrorMessage());
+   System.out.println("Error Line No : "
+     + Errors.get(i).getLineNumber());
+   System.out.println(Errors.get(i).getSourceName());
+   System.out.println();
+  }
 
 	/*public static void main(String[] args) {
 		System.out.println(System.getProperty("user.dir") + "/lib/chromedriver.exe");
